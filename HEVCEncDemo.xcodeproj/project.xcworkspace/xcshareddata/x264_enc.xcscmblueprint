@@ -1,0 +1,26 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "18206b4d-7c30-446d-93f3-2262336dac63++8622",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "18206b4d-7c30-446d-93f3-2262336dac63++8622" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "x264\/x264_148_optim\/branches",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "x264\/x264_148_optim\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "18206b4d-7c30-446d-93f3-2262336dac63++8622" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CDD896CC-3FF2-4B79-BF45-5359E224DE19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "18206b4d-7c30-446d-93f3-2262336dac63++8622" : "x264_148_optim\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "x264_enc",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/build\/project\/ios\/x264_enc.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.yy.com\/dw3rd",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18206b4d-7c30-446d-93f3-2262336dac63++8622"
+    }
+  ]
+}

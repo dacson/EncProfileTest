@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473E24A51D10F01200C4B640 /* RaceHorses_416x240_30.yuv in Resources */ = {isa = PBXBuildFile; fileRef = 4716BD1A1D10EC7900F7F4F7 /* RaceHorses_416x240_30.yuv */; };
+		475679781E67F58700995090 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 475679771E67F58700995090 /* libx264.a */; };
+		4756797A1E67F59700995090 /* libx265.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 475679791E67F59700995090 /* libx265.a */; };
+		475679801E67F69000995090 /* x265_func.m in Sources */ = {isa = PBXBuildFile; fileRef = 4756797F1E67F69000995090 /* x265_func.m */; };
+		475679901E67FF9C00995090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4756798C1E67FF9C00995090 /* LaunchScreen.storyboard */; };
+		475679911E67FF9C00995090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4756798E1E67FF9C00995090 /* Main.storyboard */; };
+		47A4BD2E1E67F412000B3FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A4BD281E67F412000B3FEF /* AppDelegate.m */; };
+		47A4BD2F1E67F412000B3FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A4BD291E67F412000B3FEF /* Assets.xcassets */; };
+		47A4BD301E67F412000B3FEF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A4BD2A1E67F412000B3FEF /* Info.plist */; };
+		47A4BD311E67F412000B3FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A4BD2B1E67F412000B3FEF /* main.m */; };
+		47A4BD321E67F412000B3FEF /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47A4BD2D1E67F412000B3FEF /* ViewController.mm */; };
+		47A4BD381E67F515000B3FEF /* x264_func.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A4BD371E67F515000B3FEF /* x264_func.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4716BD1A1D10EC7900F7F4F7 /* RaceHorses_416x240_30.yuv */ = {isa = PBXFileReference; lastKnownFileType = text; name = RaceHorses_416x240_30.yuv; path = testvideo/RaceHorses_416x240_30.yuv; sourceTree = "<group>"; };
+		47402F711D0FD64600B3E6FA /* HEVCEncDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEVCEncDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		475679771E67F58700995090 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = x264_src/lib/libx264.a; sourceTree = "<group>"; };
+		475679791E67F59700995090 /* libx265.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx265.a; path = x265_src/lib/libx265.a; sourceTree = "<group>"; };
+		4756797C1E67F68000995090 /* x265_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x265_config.h; path = x265_src/include/x265_config.h; sourceTree = "<group>"; };
+		4756797D1E67F68000995090 /* x265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x265.h; path = x265_src/include/x265.h; sourceTree = "<group>"; };
+		4756797E1E67F69000995090 /* x265_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x265_func.h; path = x265_src/src/x265_func.h; sourceTree = "<group>"; };
+		4756797F1E67F69000995090 /* x265_func.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = x265_func.m; path = x265_src/src/x265_func.m; sourceTree = "<group>"; };
+		4756798D1E67FF9C00995090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HEVCEncDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4756798F1E67FF9C00995090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HEVCEncDemo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47A4BD281E67F412000B3FEF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HEVCEncDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		47A4BD291E67F412000B3FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HEVCEncDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		47A4BD2A1E67F412000B3FEF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HEVCEncDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		47A4BD2B1E67F412000B3FEF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HEVCEncDemo/main.m; sourceTree = SOURCE_ROOT; };
+		47A4BD2C1E67F412000B3FEF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HEVCEncDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		47A4BD2D1E67F412000B3FEF /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = HEVCEncDemo/ViewController.mm; sourceTree = SOURCE_ROOT; };
+		47A4BD331E67F441000B3FEF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HEVCEncDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		47A4BD361E67F515000B3FEF /* x264_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x264_func.h; path = x264_src/src/x264_func.h; sourceTree = "<group>"; };
+		47A4BD371E67F515000B3FEF /* x264_func.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = x264_func.m; path = x264_src/src/x264_func.m; sourceTree = "<group>"; };
+		47A4BD391E67F525000B3FEF /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x264_config.h; path = x264_src/include/x264_config.h; sourceTree = "<group>"; };
+		47A4BD3A1E67F525000B3FEF /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x264.h; path = x264_src/include/x264.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47402F6E1D0FD64600B3E6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4756797A1E67F59700995090 /* libx265.a in Frameworks */,
+				475679781E67F58700995090 /* libx264.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		472FE86C1E66B0AC00253F80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				475679791E67F59700995090 /* libx265.a */,
+				475679771E67F58700995090 /* libx264.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47402F681D0FD64600B3E6FA = {
+			isa = PBXGroup;
+			children = (
+				4716BD1A1D10EC7900F7F4F7 /* RaceHorses_416x240_30.yuv */,
+				472FE86C1E66B0AC00253F80 /* Frameworks */,
+				47EE9AF71E67F1F100C11FD6 /* x264_src */,
+				47402FA71D0FD71D00B3E6FA /* x265_src */,
+				47402F731D0FD64600B3E6FA /* HEVCEncDemo */,
+				47402F721D0FD64600B3E6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47402F721D0FD64600B3E6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47402F711D0FD64600B3E6FA /* HEVCEncDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47402F731D0FD64600B3E6FA /* HEVCEncDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47A4BD331E67F441000B3FEF /* AppDelegate.h */,
+				47A4BD281E67F412000B3FEF /* AppDelegate.m */,
+				47A4BD291E67F412000B3FEF /* Assets.xcassets */,
+				47A4BD2A1E67F412000B3FEF /* Info.plist */,
+				47A4BD2C1E67F412000B3FEF /* ViewController.h */,
+				47A4BD2D1E67F412000B3FEF /* ViewController.mm */,
+				4756798E1E67FF9C00995090 /* Main.storyboard */,
+				4756798C1E67FF9C00995090 /* LaunchScreen.storyboard */,
+				47402F741D0FD64600B3E6FA /* Supporting Files */,
+			);
+			name = HEVCEncDemo;
+			path = x264_enc;
+			sourceTree = "<group>";
+		};
+		47402F741D0FD64600B3E6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47A4BD2B1E67F412000B3FEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47402FA71D0FD71D00B3E6FA /* x265_src */ = {
+			isa = PBXGroup;
+			children = (
+				47402FD61D0FF8E500B3E6FA /* src */,
+				47402FD51D0FF8D700B3E6FA /* include */,
+			);
+			name = x265_src;
+			sourceTree = "<group>";
+		};
+		47402FD51D0FF8D700B3E6FA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4756797C1E67F68000995090 /* x265_config.h */,
+				4756797D1E67F68000995090 /* x265.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		47402FD61D0FF8E500B3E6FA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4756797E1E67F69000995090 /* x265_func.h */,
+				4756797F1E67F69000995090 /* x265_func.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		47A4BD341E67F4E7000B3FEF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				47A4BD391E67F525000B3FEF /* x264_config.h */,
+				47A4BD3A1E67F525000B3FEF /* x264.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		47A4BD351E67F4F4000B3FEF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				47A4BD361E67F515000B3FEF /* x264_func.h */,
+				47A4BD371E67F515000B3FEF /* x264_func.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		47EE9AF71E67F1F100C11FD6 /* x264_src */ = {
+			isa = PBXGroup;
+			children = (
+				47A4BD351E67F4F4000B3FEF /* src */,
+				47A4BD341E67F4E7000B3FEF /* include */,
+			);
+			name = x264_src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47402F701D0FD64600B3E6FA /* HEVCEncDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47402F9E1D0FD64600B3E6FA /* Build configuration list for PBXNativeTarget "HEVCEncDemo" */;
+			buildPhases = (
+				47402F6D1D0FD64600B3E6FA /* Sources */,
+				47402F6E1D0FD64600B3E6FA /* Frameworks */,
+				47402F6F1D0FD64600B3E6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HEVCEncDemo;
+			productName = x264_enc;
+			productReference = 47402F711D0FD64600B3E6FA /* HEVCEncDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47402F691D0FD64600B3E6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "yy company";
+				TargetAttributes = {
+					47402F701D0FD64600B3E6FA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PC27PBRH3B;
+					};
+				};
+			};
+			buildConfigurationList = 47402F6C1D0FD64600B3E6FA /* Build configuration list for PBXProject "HEVCEncDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47402F681D0FD64600B3E6FA;
+			productRefGroup = 47402F721D0FD64600B3E6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47402F701D0FD64600B3E6FA /* HEVCEncDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47402F6F1D0FD64600B3E6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475679901E67FF9C00995090 /* LaunchScreen.storyboard in Resources */,
+				475679911E67FF9C00995090 /* Main.storyboard in Resources */,
+				473E24A51D10F01200C4B640 /* RaceHorses_416x240_30.yuv in Resources */,
+				47A4BD2F1E67F412000B3FEF /* Assets.xcassets in Resources */,
+				47A4BD301E67F412000B3FEF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47402F6D1D0FD64600B3E6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A4BD321E67F412000B3FEF /* ViewController.mm in Sources */,
+				47A4BD311E67F412000B3FEF /* main.m in Sources */,
+				47A4BD2E1E67F412000B3FEF /* AppDelegate.m in Sources */,
+				47A4BD381E67F515000B3FEF /* x264_func.m in Sources */,
+				475679801E67F69000995090 /* x265_func.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4756798C1E67FF9C00995090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4756798D1E67FF9C00995090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4756798E1E67FF9C00995090 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4756798F1E67FF9C00995090 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47402F9C1D0FD64600B3E6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47402F9D1D0FD64600B3E6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47402F9F1D0FD64600B3E6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PC27PBRH3B;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/x264_src/include",
+					"$(PROJECT_DIR)/x265_src/include",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HEVCEncDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/x264_src/lib",
+					"$(PROJECT_DIR)/x265_src/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhg.example.HEVCEncDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		47402FA01D0FD64600B3E6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PC27PBRH3B;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/x264_src/include",
+					"$(PROJECT_DIR)/x265_src/include",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HEVCEncDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/x264_src/lib",
+					"$(PROJECT_DIR)/x265_src/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhg.example.HEVCEncDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47402F6C1D0FD64600B3E6FA /* Build configuration list for PBXProject "HEVCEncDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47402F9C1D0FD64600B3E6FA /* Debug */,
+				47402F9D1D0FD64600B3E6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47402F9E1D0FD64600B3E6FA /* Build configuration list for PBXNativeTarget "HEVCEncDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47402F9F1D0FD64600B3E6FA /* Debug */,
+				47402FA01D0FD64600B3E6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47402F691D0FD64600B3E6FA /* Project object */;
+}
