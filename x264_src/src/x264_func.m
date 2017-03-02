@@ -114,7 +114,7 @@ static void x264_log( void *p_unused, int i_level, const char *psz_fmt, va_list 
     
     /* Configure non-default params */
 #if X264_PARAM_YY
-    if ( x264_param_default_preset(param, "yyveryfast", "zerolatency")<0 )
+    if ( x264_param_default_preset(param, "veryfast", "zerolatency")<0 )
     {
         NSLog(@"x264_simple_open: set param failed! \n");
         goto failed;
